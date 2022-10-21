@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		B0E4D8C729026D3500271AEE /* Kaleidoscope */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kaleidoscope; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E4D8CA29026D3500271AEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0E4D8D32902745500271AEE /* 01_Lexer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01_Lexer.cpp; sourceTree = "<group>"; };
+		B0E4D8D4290274FB00271AEE /* 02_Parser-And-AST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "02_Parser-And-AST.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				B0E4D8CA29026D3500271AEE /* main.cpp */,
+				B0E4D8D32902745500271AEE /* 01_Lexer.cpp */,
+				B0E4D8D4290274FB00271AEE /* 02_Parser-And-AST.cpp */,
 			);
 			path = Kaleidoscope;
 			sourceTree = "<group>";
